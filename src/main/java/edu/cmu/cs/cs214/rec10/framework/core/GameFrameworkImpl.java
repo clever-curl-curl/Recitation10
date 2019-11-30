@@ -168,6 +168,7 @@ public class GameFrameworkImpl implements GameFramework {
         gameChangeListener.onPluginRegistered(plugin);
     }
 
+
     private void notifyNewGameStarted(GamePlugin plugin) {
         gameChangeListener.onNewGame(plugin);
     }
